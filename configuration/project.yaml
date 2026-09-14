@@ -1,0 +1,14 @@
+apiVersion: argoproj.io/v1alpha1
+kind: AppProject
+metadata:
+  name: star-trek-quiz-project
+  namespace: argocd
+
+spec:
+  sourceRepos:
+    - https://github.com/dsohar/GitOps.git
+    - https://github.com/dsohar/star-trek-quiz.git
+
+  destinations:
+    - namespace: default
+      server: https://kubernetes.default.svc
