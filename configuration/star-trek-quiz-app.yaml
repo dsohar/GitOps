@@ -9,7 +9,7 @@ spec:
   project: star-trek-quiz-project
 
   source:
-    repoURL: https://github.com/dsohar/star-trek-quiz.git
+    repoURL: https://github.com/dsohar/GitOps.git
     targetRevision: main
     path: .
 
