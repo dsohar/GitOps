@@ -11,7 +11,7 @@ spec:
   source:
     repoURL: https://github.com/dsohar/star-trek-quiz.git
     targetRevision: main
-    path: helmchart
+    path: .
 
   destination:
     server: https://kubernetes.default.svc
